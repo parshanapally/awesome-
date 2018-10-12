@@ -1,7 +1,7 @@
 import React from "react";
 class Awesome extends React.Component {
   render() {
-    return <p>Awesome</p>;
+    return <p className="awesome-font">Awesome</p>;
   }
 }
 

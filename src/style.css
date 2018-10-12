@@ -1,0 +1,48 @@
+body {
+  animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 50s; /* Chrome and Safari */
+}
+
+.awesome-font {
+  font-size: 200px;
+  align-content: center;
+  color: purple;
+  font-family: Arial, sans-serif;
+  letter-spacing: 20px;
+}
+@keyframes colorchange {
+  0% {
+    background: lavender;
+  }
+  25% {
+    background: lightcoral;
+  }
+  50% {
+    background: lightblue;
+  }
+  75% {
+    background: lightgreen;
+  }
+  100% {
+    background: lightseagreen;
+  }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
+  0% {
+    background: lavender;
+  }
+  25% {
+    background: lightcoral;
+  }
+  50% {
+    background: lightblue;
+  }
+  75% {
+    background: lightgreen;
+  }
+  100% {
+    background: lightseagreen;
+  }
+}
