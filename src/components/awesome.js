@@ -1,7 +1,7 @@
 import React from "react";
 class Awesome extends React.Component {
   render() {
-    return <button>Awesome</button>;
+    return <p>Awesome</p>;
   }
 }
 
