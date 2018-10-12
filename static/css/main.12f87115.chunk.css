@@ -1,0 +1,2 @@
+body{animation:colorchange 50s;-webkit-animation:colorchange 50s}.awesome-font{font-size:200px;align-content:center;color:purple;font-family:Arial,sans-serif;letter-spacing:20px}@keyframes colorchange{0%{background:#e6e6fa}25%{background:#f08080}50%{background:#add8e6}75%{background:#90ee90}to{background:#20b2aa}}@-webkit-keyframes colorchange{0%{background:#e6e6fa}25%{background:#f08080}50%{background:#add8e6}75%{background:#90ee90}to{background:#20b2aa}}
+/*# sourceMappingURL=main.12f87115.chunk.css.map */
